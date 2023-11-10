@@ -46,10 +46,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#intro">Home</a></li>
+        <li class="active"><a href="{% url 'home' %}">Home</a></li>
         <li><a href="#contact">Login</a></li>
-		<li><a href="#contact">Register</a></li>
-		<li><a href="#contact">Contact</a></li>
+		<li><a href="{% url 'register' %}">Register</a></li>
+		<!-- <li><a href="#contact">Contact</a></li> -->
        
         </li>
       </ul>
@@ -71,7 +71,7 @@
 
    
         <div class="Form-box" style="border-radius: 20px; background-color: rgb(255,255,255,0.6); top:85%">
-
+            <img src="{%static 'img/login.png' %}" style="width:45px" alt="login">
             <h1>Login</h1> 
             <form method="post"> 
             {% csrf_token %}

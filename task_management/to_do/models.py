@@ -7,7 +7,9 @@ class Register(models.Model):
 
 class Task(models.Model):
     task= models.CharField(max_length=20)
-    details=models.TextField(max_length=50) 
+    details=models.TextField(max_length=50)
+    
+
 class User(models.Model):
     username= models.EmailField(max_length=50)
     password=models.CharField(max_length=25)

@@ -1,8 +1,8 @@
-
 from django.contrib.auth import logout
 from django.http import HttpResponse
-from django.contrib.auth.models import User
 from django.http import HttpResponseRedirect
+from django.contrib.auth.models import UserManager
+from django.contrib.auth.models import User
 from django.shortcuts import render,redirect
 from .models import Task
 from django.urls import reverse
@@ -10,7 +10,7 @@ from .forms import TaskForm
 from django.contrib import messages
 from django.contrib.auth import authenticate
 from django.contrib.auth import login as auth_login
-from . models import User
+# from . models import User
 def index(request):
     return render(request,'home.html')
 
@@ -65,7 +65,7 @@ def register(request):
         name=request.POST['name']
         email=request.POST['mail']
         password=request.POST['password']
-        myuser= User.objects.creat(name,email,password)
+        myuser=User.objects.create_user(name,email,password)
         myuser.save()
         return redirect('login')
         
