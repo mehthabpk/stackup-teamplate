@@ -46,10 +46,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#intro">Home</a></li>
-        <li><a href="#contact">Login</a></li>
+        <li class="active"><a href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'login' %}">Login</a></li>
 		<li><a href="#contact">Register</a></li>
-		<li><a href="#contact">Contact</a></li>
+		<!-- <li><a href="#contact">Contact</a></li> -->
        
         </li>
       </ul>
@@ -77,7 +77,7 @@
             <div class="input_group">
                 <div class="input-field">
                     <i class="fa-solid fa-user"></i>
-                    <input type="text" placeholder="Name" name="name" required="">
+                    <input type="text" placeholder="Username" name="name" required="">
                       
                 </div>
                 <div class="input-field">
