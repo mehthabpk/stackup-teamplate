@@ -51,12 +51,12 @@ def update(request, id):
     return render(request,'update.html',{'form': form})
 
 def print1(request): 
-    task_data=Task.objects.all()
+    task_data=Task.objects.filter(user=request.user)
     if request.POST:
         print(request.POST)
         task=request.POST.get('task')
         details=request.POST.get('details')
-        task_obj=Task.objects.create(task=task,details=details)
+        task_obj=Task.objects.create(task=task,details=details, user=request.user)
     print(task_data)
     return render(request,'user.html',{'tasks':task_data})
 
