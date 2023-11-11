@@ -8,7 +8,7 @@ A task management application is a software tool that assists users in organizin
 ## Team Id
 tech-connect
 ## Link to product walkthrough
-[link to video]
+[[link to video]](https://youtu.be/mTSMVxVObbo)
 ## How it Works ?
 1. Explaining the working of project
 2. Embed video of project demo
