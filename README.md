@@ -18,6 +18,8 @@ Django, SQlite
 Just clone it to your system and open the project using vs code. Then run it
 ## How to Run
 Clone the project and just run the server
+## Live Demo
+We are extremely sorry that live demo is unavailable as hosting the page is difficult as it requires payment.
 ## Screenshots
 Home Page:![Home](https://github.com/mehthabpk/stackup-teamplate/assets/149654128/638c66bf-656b-4420-ab2e-5b7a187e6495)
 Login Page: ![Login](https://github.com/mehthabpk/stackup-teamplate/assets/149654128/b50e7c41-26d6-416e-a172-37ae78210024)
