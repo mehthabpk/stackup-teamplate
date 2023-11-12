@@ -7,7 +7,7 @@ A task management application is a software tool that assists users in organizin
 3. Umira Parvi KP [https://github.com/umiraparvikp]
 ## Team Id
 tech-connect
-## Link to product walkthrough [https://youtu.be/mTSMVxVObbo]
+## Link to product walkthrough 
 [https://youtu.be/mTSMVxVObbo]
 ## How it Works ?
 Our project named "Task Management" is a task management(to do) web app. In this users can first register as a user and then login into our app using the registered ID. After logging in, we will see an interface where users can add task with a label and brief note. After typing the label and details in the corresponding fields, clicking the add button. The entered task will be displayed on the below table with option of deleting end editing the task. If you want to edit the entered task then you can click on the corresponding update button. If you want to delete an entered task, you can use the corresponding delete button. After using, the user can logout to end the session.
