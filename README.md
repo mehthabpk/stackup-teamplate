@@ -19,7 +19,8 @@ Just clone it to your system and open the project using vs code. Then run it
 ## How to Run
 Clone the project and just run the server
 ## Live Demo
-We are extremely sorry that live demo is unavailable as hosting the page is difficult as it requires payment. And as our back-end is django, even the HTML pages don't load at which we have coded. Click on the link to watch video: [Walkthrough Video](https://youtu.be/mTSMVxVObbo)
+We are unable to provide live demo as we have used DBSQLite3 which is not suppoerted in most hosting site like Vercel. Click on the link to watch video: [Walkthrough Video](https://youtu.be/mTSMVxVObbo)
+
 ## Screenshots
 Home Page:![Home](https://github.com/mehthabpk/stackup-teamplate/assets/149654128/638c66bf-656b-4420-ab2e-5b7a187e6495)
 Login Page: ![Login](https://github.com/mehthabpk/stackup-teamplate/assets/149654128/b50e7c41-26d6-416e-a172-37ae78210024)
