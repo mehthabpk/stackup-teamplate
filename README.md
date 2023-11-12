@@ -13,8 +13,18 @@ https://youtu.be/mTSMVxVObbo
 Our project named "Task Management" is a task management(to do) web app. In this users can first register as a user and then login into our app using the registered ID. After logging in, we will see an interface where users can add task with a label and brief note. After typing the label and details in the corresponding fields, clicking the add button. The entered task will be displayed on the below table with option of deleting end editing the task. If you want to edit the entered task then you can click on the corresponding update button. If you want to delete an entered task, you can use the corresponding delete button. After using, the user can logout to end the session.
 The interface of our app is builded using HTML and CSS. The python django framework is used as backend. For storing data, SQLite is used.
 ## Libraries used
-D
+Django, SQlite
 ## How to configure
-Instructions for setting up project
+Just clone it to your system and open the project using vs code. Then run it
 ## How to Run
-Instructions for running
+Clone the project and just run the server
+## Screenshots
+Home Page:![Home](https://github.com/mehthabpk/stackup-teamplate/assets/149654128/638c66bf-656b-4420-ab2e-5b7a187e6495)
+Login Page: ![Login](https://github.com/mehthabpk/stackup-teamplate/assets/149654128/b50e7c41-26d6-416e-a172-37ae78210024)
+Register Page: ![Register](https://github.com/mehthabpk/stackup-teamplate/assets/149654128/e2bff0d6-daa5-4570-bc3b-d8b157e2ade0)
+Task Add and Display Page: ![Task add display](https://github.com/mehthabpk/stackup-teamplate/assets/149654128/a2425173-6e9b-495f-bc0a-84863f78d3d7)
+Task Update Page: ![Task Update](https://github.com/mehthabpk/stackup-teamplate/assets/149654128/6cc4a848-7da1-43d8-a0e5-17f60bc7c19d)
+
+
+
+
